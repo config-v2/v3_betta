@@ -1,0 +1,13 @@
+create a new repository on the command line
+echo "# v3_betta" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M config-v3
+git remote add origin https://github.com/config-v2/v3_betta.git
+git push -u origin config-v3
+
+or push an existing repository from the command line
+git remote add origin https://github.com/config-v2/v3_betta.git
+git branch -M config-v3
+git push -u origin config-v3

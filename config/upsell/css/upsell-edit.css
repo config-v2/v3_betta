@@ -1,0 +1,28 @@
+textarea {
+	overflow-x: hidden;
+}
+.wrapper {
+	padding: 40px 0;
+}
+.products-form .form-control-file {
+	margin-bottom: 10px;
+}
+.product-image {
+	display: block;
+	height: 30px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.del-image {
+	display: block;
+	margin-bottom: 9px;
+}
+.btn {
+	cursor: pointer;
+}
+div.card-body {
+	background-color: #fcfcfc;
+}
+form.card-body {
+	background-color: #fff;
+}
